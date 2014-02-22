@@ -1,0 +1,32 @@
+application: jeffrimer-gae
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /css/img
+  static_dir: css/img
+
+- url: /img
+  static_dir: img
+
+- url: /images
+  static_dir: images
+
+- url: /includes/js
+  static_dir: includes/js
+
+- url: /includes/js/libs
+  static_dir: includes/js/libs
+
+- url: /includes/php/(.*?)
+  script: includes/php/\1.php
+
+- url: /(.*.php)
+  script: \1
+
+- url: /(.*?)
+  script: index.php

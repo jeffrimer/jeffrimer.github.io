@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>Project 2 Store Front</title>
+	<style type="text/css">
+		label {
+			width: 150px;
+			clear: both;
+			float: left;
+		}
+		form {
+			width: 310px;
+		}
+		input#submit {
+			float: right;
+			margin-top: 10px;
+		}
+		a {
+			display: block;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+
+	<div style="margin: 0 auto; width: 400px;">
+		<h1>The Towel Store!</h1>
+		<p>Please choose your towel below.</p>
+		<form name="store-front" action="Inventory.php" method="post">
+		<label>Manufacturer:</label><input type="text" name="manufacturer" id="manufacturer" />
+		<label>Color:</label><input type="text" name="color" id="color" />
+		<label>Material:</label><select name="material" id="material">
+											<option value="cotton">Cotton</option>
+											<option value="polyester">Polyester</option>
+											<option value="microfiber">Micro Fiber</option>
+										</select>
+		<label>Price:</label><input type="text" name="price" id="price" />
+		<input name="submit" type="submit" id="submit" value="Submit" />
+		</form>
+		
+		<a href="ItemsEntered.php">View all items entered.</a>
+	</div>
+</body>
+</html>
