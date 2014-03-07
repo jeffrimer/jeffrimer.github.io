@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* JavaScript Project Styles */
+
+/* Plain elements */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background: #970303;
+}
+
+h1 {
+	font-size: 26px;
+	padding: 10px 0;
+	color: #970303;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 22px;
+	padding: 5px 0;
+	color: #F4C305;
+}
+
+/* Page Wrap + Content */
+
+#wrapper {
+	width: 800px;
+	margin: 10px auto;
+	background: #977575;
+}
+
+#container {
+	position: relative;
+	float: left;
+	width: 800px;
+	background: #977575;
+}
+
+#content {
+	margin-top: 115px;
+	width: 550px;
+	position: relative;
+	float: right;
+	background: #977575;
+	padding: 0 10px 10px 10px;
+}
+
+#content ul {
+	padding: 0 0 10px 35px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	margin-top: 115px;
+	width: 200px;
+	position: relative;
+	float: left;
+	background: #977575;
+	border: 1px solid #000;
+}
+
+ul#nav {
+	list-style: none;
+	border: 0;
+}
+
+/*ul#nav li {
+	margin-bottom: 5px;
+}*/
+
+ul#nav li a {
+	display: block;
+}
+
+/* Footer */
+
+#footer {
+	text-align: center;
+	border-top: 1px solid black;
+	width: 100%;
+	min-width: 800px;
+	background: #977575;
+	position: relative;
+	float: left;
+}
+
+#footer ul {
+	padding: 10px 0 10px 200px;
+	list-style: none;
+}
+
+#footer ul li {
+	display: inline;
+}
+
+#footer ul li a {
+	color: #000;
+	float: left;
+	margin-right: 10px;
+	display: block;
+	text-decoration: none;
+}
+
+#footer ul li a:hover {
+	color: #f4c305;
+}
+
+#copyright {
+	font-size: 11px;
+	font-style: italic;
+}
+
+#pageHits {
+	text-align: center;
+	font-size: 12px;
+}
+
+#header {
+	left: 0;
+	top: 0;
+	width: 800px;
+	position: absolute;
+	background: #970303 url("images/northpointbanner.jpg") no-repeat center;
+	height: 115px;
+}
+
+/* Page Specific */
+
+#aboutUsContent {
+	margin-bottom: 10px;
+}
+
+#aboutUsContent p {
+	margin: 0;
+}
+
+#dtField {
+	font-size: 12px;
+}
+
+/* Calendar */
+
+#datePicked {
+	color: #F4C305;
+}
+
+/* table styles */ 
+table#signUpTable {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+#signUpTable td, #signUpTable th {
+  color: black;
+  background: #cccccc;
+  font-size: 12px;
+  padding: 0.5em;
+  border: 1px solid gray;
+}
+
+/* this class refers to the className call from within the validation script when a field is not filled out*/
+.invalid {
+	background-color:#FF6;
+	color: #000;
+	border: solid 1px #cc0000;
+}
+
+/* this class refers to the className call from within the validation script the reset button is clicked and the form is cleared*/
+.reset {
+	color: #000;
+}
