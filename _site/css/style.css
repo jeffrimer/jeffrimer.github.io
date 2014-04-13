@@ -255,7 +255,7 @@ div.portfolioListHead a {
 #pic { float: right; margin: -30px 0 0 0; }
 
 /* header */
-header { background: url(img/bg-footer.png) 0 0 repeat; width 100%; min-width: 980px; height: 150px; border-bottom: 1px solid #336699; }
+header { background: url(img/bg-footer.png) 0 0 repeat; width 100%; min-width: 980px; height: 150px; }
 #innerHeader { width: 940px; margin: 0 auto; padding: 0 20px }
 #banner { background: url(img/banner.png) 0 25px no-repeat; height: 100px; }
 
@@ -270,7 +270,6 @@ footer {
   width: 100%;
   min-width: 980px;
   height: 75px;
-  border-top: 1px solid #336699;
 }
 #innerFooter { margin: 0 auto; width: 980px; text-align: center; }
 footer p { margin-top: 25px; }
