@@ -251,12 +251,12 @@ div.portfolioListHead a {
 .portfolioListHead a:hover {
   border: 1px solid #000; background: #7895c9;
 }
-#page-wrap { width: 800px; margin: 40px auto 60px; }
+#page-wrap { max-width: 800px; width: 100%; margin: 40px auto 60px; }
 #pic { float: right; margin: -30px 0 0 0; }
 
 /* header */
-header { width 100%; min-width: 980px; height: 120px; }
-#innerHeader { width: 980px; margin: 0 auto; }
+header { width: 100%; height: 120px; }
+#innerHeader { max-width: 980px; width: 100%; margin: 0 auto; }
 #banner { background: url(img/banner.png) 0 10px no-repeat; height: 90px; margin-left: 20px; }
 
 /* rollover navigation bar */
@@ -268,21 +268,21 @@ header { width 100%; min-width: 980px; height: 120px; }
 /* footer */
 footer {
   width: 100%;
-  min-width: 980px;
   height: 75px;
 }
-#innerFooter { margin: 0 auto; width: 980px; text-align: center; }
+#innerFooter { margin: 0 auto; width: 100%; max-width: 980px; text-align: center; }
 footer p { margin-top: 25px; }
 /* text */
 #content.resume { padding-top: 0; }
-#objective { width: 500px; float: left; padding-top: 40px;}
+#objective { max-width: 500px; width: 100%; float: left; padding-top: 40px;}
 #objective p { font-family: Georgia, Serif; color: #666; }
 
 /* content */
 #content {
   min-height: 525px;
   margin: 0 auto;
-  width: 940px;
+  width: max-940px;
+  width: 100%;
   padding: 40px 20px 0;
   background: white;
 }
@@ -309,16 +309,6 @@ textarea {
   border: 1px solid #ccc;
   background: #ddd;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
