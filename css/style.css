@@ -218,7 +218,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 * { margin: 0; padding: 0; }
-body { font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; line-height: 24px; background: #f5f5f5; }
+body { font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; line-height: 24px; background: url(img/bg-footer.png) 0 0 repeat; }
 h1 { margin: 0 0 5px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: normal; letter-spacing: -1px; }
 h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
 h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
@@ -255,9 +255,9 @@ div.portfolioListHead a {
 #pic { float: right; margin: -30px 0 0 0; }
 
 /* header */
-header { background: url(img/bg-footer.png) 0 0 repeat; width 100%; min-width: 980px; height: 150px; }
-#innerHeader { width: 940px; margin: 0 auto; padding: 0 20px }
-#banner { background: url(img/banner.png) 0 25px no-repeat; height: 100px; }
+header { width 100%; min-width: 980px; height: 150px; }
+#innerHeader { width: 980px; margin: 0 auto; }
+#banner { background: url(img/banner.png) 0 25px no-repeat; height: 100px; margin-left: 20px; }
 
 /* rollover navigation bar */
 #nav { width: 100%; background-color: #336699; padding: 0; margin: 20px 0 0 0; float: left; }
@@ -284,6 +284,7 @@ footer p { margin-top: 25px; }
   margin: 0 auto;
   width: 940px;
   padding: 40px 20px 0;
+  background: white;
 }
 
 /* form styles */
