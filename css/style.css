@@ -278,11 +278,14 @@ footer p { margin-top: 25px; }
 #objective p { font-family: Georgia, Serif; color: #666; }
 
 /* content */
+#main {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
 #content {
   min-height: 525px;
   margin: 0 auto;
-  width: max-940px;
-  width: 100%;
   padding: 40px 20px 0;
   background: white;
 }
