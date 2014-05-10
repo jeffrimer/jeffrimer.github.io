@@ -255,12 +255,12 @@ div.portfolioListHead a {
 #pic { float: right; margin: -30px 0 0 0; }
 
 /* header */
-header { width 100%; min-width: 980px; height: 150px; }
+header { width 100%; min-width: 980px; height: 120px; }
 #innerHeader { width: 980px; margin: 0 auto; }
-#banner { background: url(img/banner.png) 0 25px no-repeat; height: 100px; margin-left: 20px; }
+#banner { background: url(img/banner.png) 0 25px no-repeat; height: 90px; margin-left: 20px; }
 
 /* rollover navigation bar */
-#nav { width: 100%; background-color: #336699; padding: 0; margin: 20px 0 0 0; float: left; }
+#nav { width: 100%; background-color: #336699; padding: 0; margin: 0; float: left; }
 #nav li { display: inline; }
 #nav li a { float: left; color: #fff; padding: 3px 12px 3px 12px; border-right: 1px solid #999; width: auto; border-bottom: none; }
 #nav li a:hover { background-color: #c0c0c0; }
